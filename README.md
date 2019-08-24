@@ -7,3 +7,5 @@ A web app to
 Book descriptions are retrieved from the Google Books database upon entering ISBN.
 
 Sign-in is required and users can be managed by an admin account.
+
+Uses procedural-style PHP for backend.
