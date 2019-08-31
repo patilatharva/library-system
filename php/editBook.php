@@ -2,7 +2,7 @@
 	function editModal(srno) {
 		$.ajax({
 			data: {srno: srno},
-			url: "editBookModalAction.php",
+			url: "bookDetailsAction.php",
 			type: "post",
 			error: function(err) {
 				alert(err);
@@ -47,7 +47,7 @@
 			type: "post",
 			url: "editBookAction.php",
 			error: function(err) {
-            	alert(err);
+				alert(err);
 			},
 			success: function(dat) {
 				$('#booklist').DataTable().ajax.reload(null, false);
@@ -176,44 +176,3 @@
 		</div>
 	</div>
 </div>
-
-<!--div class="modal-body">
-					<b>Serial No: <span id="srno1"></span></b> <br/><br/>
-					<input id="srno2" type="hidden" name="srno"/>
-
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1" style="width: 121px">
-								<i class="fas fa-file-alt"></i> &nbsp;&nbsp; Title
-							</span>
-						</div>
-						<input id="title" name="title" type="text" class="form-control" aria-describedby="basic-addon1">
-					</div>
-					
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1" style="width: 121px">
-								<i class="fas fa-user"></i> &nbsp;&nbsp; Author(s)
-							</span>
-						</div>
-						<input id="author" name="author" type="text" class="form-control" aria-describedby="basic-addon1">
-					</div>			
-					
-					<div class="input-group mb-3">
-							<div class="input-group-prepend">
-								<span class="input-group-text" id="basic-addon1" style="width: 121px">
-									<i class="fas fa-globe"></i> &nbsp;&nbsp; ISBN 
-								</span>
-							</div>
-						<input id="isbn" name="isbn" type="text" class="form-control" aria-describedby="basic-addon1">
-					</div>	
-
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1" style="width: 121px">
-								<i class="fas fa-layer-group"></i> &nbsp;&nbsp; Copies
-							</span>
-						</div>
-						<input id="stock" name="stock" type="text" class="form-control" aria-describedby="basic-addon1">
-					</div>	
-				</div-->

@@ -88,14 +88,6 @@ if ( isset( $_SESSION['user_id'] ) ) {
 			});
 		});
 
-		/**************************** Modal JavaScript *********************** */
-		function deleteModal(srno, title, author, isbn, stock) {
-			document.getElementById('srno_del').value = srno;
-			document.getElementById('isbn_del').value = isbn;
-			document.getElementById('title_del').value = title;
-			document.getElementById('author_del').value = author;
-			document.getElementById('stock_del').value = stock;
-		}
 	/**************************** Misc. JavaScript ************************ */
 		function active() {
 			var currentTab = document.getElementById('a3');

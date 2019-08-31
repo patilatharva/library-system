@@ -145,6 +145,16 @@ img {
 	}
 }
 
+input[disabled] {
+    background-color: #f8f8fa !important;
+}
+
+textarea[disabled] {
+    background-color: #f8f8fa !important;
+    resize: none;
+    height: fit-content;
+}
+
 .input-group .input-group.filter{
     width: 50%;
 }
@@ -421,14 +431,11 @@ form {
     padding: 25px;
 }
 
-#addbook.book-modal .modal-body {
+#addbook.book-modal .modal-body,
+#editbook.book-modal .modal-body,
+#deletebook.book-modal .modal-body {
     padding-bottom: 0px;
 }
-
-#editbook.book-modal .modal-body {
-    padding-bottom: 0px;
-}
-
 
 .book-thumbnail {
     vertical-align: top;
