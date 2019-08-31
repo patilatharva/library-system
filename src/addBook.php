@@ -148,6 +148,6 @@
 					<button id="bt-addbook" type="button" class="btn btn-primary">Add Book</button>
 				</div>
 			</form>
-   		</div>
-  	</div>
+		</div>
+	</div>
 </div>

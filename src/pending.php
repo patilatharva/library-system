@@ -16,18 +16,18 @@ if ( isset( $_SESSION['user_id'] ) ) {
 	<!-- Favicon -->
 	<link rel="icon" href="../images/logo3.png" type="image/gif" sizes="16x16">
 	<!-- DataTables Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="../css/datatables.min.css">
 	<!-- Bootstrap Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" /> 
 	<!-- Common Custom Stylesheet -->
     <link rel="stylesheet" type="text/css" href="../css/common.css" />
 	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/jquery.min.js"></script>
 	<!-- DataTables jQuery --> 
-	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" charset="utf8" src="../js/datatables.min.js"></script>
 	<!-- Bootstrap Javascript -->
-	<script src="../javascript/umd/popper.min.js"></script>
-	<script type="text/javascript" src="../javascript/bootstrap.min.js"></script>
+	<script src="../js/umd/popper.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css" integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z" crossorigin="anonymous">

@@ -21,13 +21,13 @@ if ( isset( $_SESSION['user_id'] ) ) {
     <link rel="stylesheet" type="text/css" href="../css/common.css" />
 
 	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/jquery.min.js"></script>
 	<!-- Bootstrap JS -->
-	<script src="../javascript/umd/popper.min.js"></script>
-	<script type="text/javascript" src="../javascript/bootstrap.min.js"></script>
+	<script src="../js/umd/popper.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<!-- ChartJS -->
-	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
-	<script src="../javascript/bookchart.js"></script>
+	<script src="../js/chart.min.js"></script>
+	<script src="../js/bookchart.js"></script>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css" integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous" />
