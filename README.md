@@ -19,7 +19,7 @@ In a little more detail, it can:
   
 **Check in/out books** 
 
-Books can be lent to students for a user-defined time period and returned to the library in a matter of seconds, either by scanning a book's ISBN or by selecting it manually.
+Books can be lent to students and returned to the library in a matter of seconds, either by scanning a book's ISBN or by selecting it manually.  
 
 **Display**
 - The front page consists of a clean dashboard which shows key stats at a glace.
