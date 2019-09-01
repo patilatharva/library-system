@@ -12,10 +12,8 @@ In a little more detail, it can:
 1. Book records 
     - Upon scanning the ISBN of a book, Pacifica uses Open Library and Google Books API to fetch the title, author, cover image, description, publisher, published year, page count and categories. Of course, the user can choose to add everything manually as well.
     - CSV batch uploads/downloads are supported.
-    
-Books            |  Book details
-:-------------------------:|:-------------------------:
-![Books](demo/books.png)  |  ![Book Details](demo/bookdetails.png)
+![Books](demo/books.png)
+![Book Details](demo/bookdetails.png)
 
 2. Student records 
     - Pacifica accepts the name, class and roll number of each student.
