@@ -1,5 +1,5 @@
 # Pacifica - a school library management system
-Pacifica is a web app designed to perform basic managerial tasks of a school's library with minimal effort, in lieu of clunky, Windows XP era software.
+Pacifica is a web app designed to perform basic managerial tasks of a school's library with minimal effort.
 
 # How is it made?
 Pacifica is developed with a procedural-style PHP backend and is intended to be used with a MySQL database.  
