@@ -34,4 +34,4 @@ Pacifica has two types of users:
 2. Users - they are able to view book data and book data only.
 
 # Why did I make this?  
-Pacifica was originally developed as a solution for my high school's uncataloged library. Today, it's a fun side project that I continue to work on when I'm bored
+Pacifica was originally developed as a solution for my high school's uncataloged library. Today, it's a fun side project that I enjoy building upon.
