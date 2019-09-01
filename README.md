@@ -39,7 +39,7 @@ Pacifica has two types of users:
 ![Settings](demo/settings.png)
 
 All users are required to log in to access any feature.
-![Sign in](demo/signin.png)
+![Sign in](demo/login.png)
 
 # Why did I make this?  
 Pacifica was originally developed as a solution for my high school's uncataloged library. Today, it's a fun side project that I enjoy building upon.
