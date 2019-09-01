@@ -33,5 +33,7 @@ Pacifica has two types of users:
 1. Admins - they are granted the ability to create, update and delete all data.
 2. Users - they are able to view book data and book data only.
 
+All users are required to log in to access any feature.
+
 # Why did I make this?  
 Pacifica was originally developed as a solution for my high school's uncataloged library. Today, it's a fun side project that I enjoy building upon.
