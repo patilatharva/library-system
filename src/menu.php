@@ -32,7 +32,7 @@ if (mysqli_num_rows($result) > 0) {
 	<a id="title" class="banner">
 		<div style="margin: auto; width: fit-content; display: table">
 			<img src="../images/logo3.png" id="logo"/>
-			<h1 style="display: table-cell; vertical-align: middle; margin-bottom: 0; padding-left: 10px">Library</h1>
+			<h1 style="display: table-cell; vertical-align: middle; margin-bottom: 0; padding-left: 10px">Pacifica</h1>
 		</div>
 	</a>
 	<div id="user" class="banner">
