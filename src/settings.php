@@ -12,7 +12,7 @@ if ( isset( $_SESSION['user_id'] ) ) {
 
 <html>
 <head>
-    <title>Library System</title>
+    <title>Pacifica</title>
 	<!-- Favicon -->
 	<link rel="icon" href="../images/logo3.png" type="image/gif" sizes="16x16" />
 	<!-- DataTables Stylesheet -->

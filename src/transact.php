@@ -12,7 +12,7 @@ if ( isset( $_SESSION['user_id'] ) ) {
 
 <html>
 <head>
-<title>Library System</title>
+<title>Pacifica</title>
 	<!-- Favicon -->
 	<link rel="icon" href="../images/logo3.png" type="image/gif" sizes="16x16">
 	<!-- DataTables Stylesheet -->
@@ -186,7 +186,7 @@ if ( isset( $_SESSION['user_id'] ) ) {
 						$sql = "SELECT COUNT(*) AS issued "
 							. " FROM transaction_record t, students s, books b"
 							. " WHERE date_returned IS NULL AND t.student_srno = s.srno AND t.book_srno = b.srno"
-							. " AND b.display = 1 AND s.display = 1";
+							. " AND s.display = 1";
 						
 						$result = mysqli_query($conn, $sql);
 

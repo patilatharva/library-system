@@ -238,7 +238,7 @@ class SSP {
 			}
 		}
 		// Combine the filters into a single string
-		$where = '';
+		$where = 'display = 1';
 		if ( count( $globalSearch ) ) {
 			$where = '('.implode(' OR ', $globalSearch).')';
 		}
