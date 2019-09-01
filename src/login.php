@@ -54,7 +54,10 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div id="welcome">
-				Welcome.
+				Welcome to
+				<div id="pacifica">
+					Pacifica
+				</div>
 			</div>
 			<div class="wrap-login100">
 				<form id="login-form" class="login100-form validate-form">
