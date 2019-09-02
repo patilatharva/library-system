@@ -8,8 +8,8 @@ $cutoff = date('Y-m-d', strtotime('-10 months', strtotime($cutoff)));
 
 
 for($i=0; $i<12; $i++) {
-    $sql .= "SELECT DATE_FORMAT(DATE_SUB('$cutoff', INTERVAL 1 MONTH), '%b %Y'), SUM(stock) 
-            FROM books WHERE date_added <= '$cutoff'; ";
+    $sql .= "SELECT DATE_FORMAT(DATE_SUB('$cutoff', INTERVAL 1 MONTH), '%b %Y'), COUNT(*) 
+            FROM books WHERE date_added <= '$cutoff' AND display = 1; ";
     $cutoff = date('Y-m-d', strtotime('+1 months', strtotime($cutoff)));
 }
 

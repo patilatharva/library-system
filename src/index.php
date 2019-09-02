@@ -63,7 +63,7 @@ if ( isset( $_SESSION['user_id'] ) ) {
 						<p class="card-text" style="font-size: 50">
 								<i class="fas fa-book"></i>&nbsp;&nbsp;
 								<?php
-									$sql = "SELECT SUM(stock) AS books FROM books";
+									$sql = "SELECT SUM(stock) AS books FROM books WHERE display = 1";
 									$result = mysqli_query($conn, $sql);
 
 									if (mysqli_num_rows($result) > 0) {  			
@@ -83,7 +83,7 @@ if ( isset( $_SESSION['user_id'] ) ) {
 						<p class="card-text" style="font-size: 50">
 							<i class="fas fa-users"></i>&nbsp;&nbsp;
 							<?php
-								$sql = "SELECT COUNT(*) AS 'studno' FROM students";
+								$sql = "SELECT COUNT(*) AS 'studno' FROM students WHERE display = 1";
 								$result = mysqli_query($conn, $sql);
 
 								if (!$result) {
@@ -109,7 +109,8 @@ if ( isset( $_SESSION['user_id'] ) ) {
 							<?php
 								$sql = "SELECT COUNT(*) AS issued "
 									. " FROM transaction_record t, students s, books b"
-									. " WHERE date_returned IS NULL AND t.student_srno = s.srno AND t.book_srno = b.srno";
+									. " WHERE date_returned IS NULL AND t.student_srno = s.srno AND t.book_srno = b.srno"
+									. " AND s.display = 1";
 
 								$result = mysqli_query($conn, $sql);
 
