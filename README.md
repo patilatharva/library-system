@@ -4,7 +4,7 @@ Pacifica has a backend written in procedural PHP and is intended to be used with
 Its frontend makes use of jQuery - including AJAX methods and the libraries DataTables and Bootstrap.  
 ![Front page](demo/home.png)
 # What can it do?
-Pacifica allows book and student data to be created, read, updated and deleted. Being a library management system, it also facilitates books to checked in and out.  
+Pacifica allows book and student data to be created, read, updated and deleted. Being a library management system, it also enables librarians to check in and out books. 
 
 In a little more detail, it can:
 
