@@ -41,4 +41,4 @@ Both kinds of users are required to log in to access any page.
 ![Sign in](demo/login.png)
 
 # Why did I make this?  
-Pacifica was originally developed as a solution for my high school's uncataloged library. Today, it's a fun side project that I enjoy building upon.
+Pacifica was originally developed as a solution for my high school's uncataloged library. Today, it's a fun side project that I enjoy building upon!
