@@ -1,5 +1,5 @@
-# Pacifica - School Library Management System
-Pacifica is a web app designed to perform basic managerial tasks of a school's library with minimal effort.  
+# Pacifica · [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+Pacifica is a school library management web app designed to perform basic tasks of a school's library with minimal effort.  
 Pacifica has a backend written in procedural PHP and is intended to be used with a MySQL database. The frontend makes use of jQuery - including AJAX methods and the libraries DataTables and Bootstrap.  
 ![Front page](demo/home.png)
 # What can it do?
