@@ -27,7 +27,7 @@ Books can be lent to students and returned to the library in a matter of seconds
 
 **Display**
 - The front page consists of a clean dashboard showing key numbers at a glace.
-- All records are displayed in minimalist tables which provide pagination, searching and column ordering. Any record can be instantly updated or deleted from the same page as well.
+- All records are displayed in minimalist tables which provide pagination, multi-column searching and column ordering. Any record can be instantly updated or deleted from the same page as well.
 - Check in/out records are stored in the History table.
 - Overdue books are listed once again in a separate page.
 
