@@ -24,6 +24,7 @@ In a little more detail, it can:
 **Check in/out books** 
 
 Books can be lent to students and returned to the library in a matter of seconds, either by scanning a book's ISBN or by selecting one manually.  
+
 ![Check in/out](demo/checkinout.png)
 
 **Display**
@@ -37,9 +38,11 @@ Books can be lent to students and returned to the library in a matter of seconds
 Pacifica has two types of users:
 1. Admins - they are granted the ability to create, update and delete all data.
 2. Users - they are able to view book data and book data only.   
+
 ![Settings](demo/settings.png)
 
 Both kinds of users are required to log in to access any page.  
+
 ![Sign in](demo/login.png)
 
 # Why did I make this?  
